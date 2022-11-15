@@ -1,0 +1,42 @@
+//to watch sass
+npm run watch:sass
+
+//to run live server
+live-server
+
+//to watch sass and run live server
+npm run start
+
+-------------------------------------
+
+//to compile sass
+npm run compile:sass
+
+//to concantenate files
+npm run concat:css
+
+//to prefix css
+npm run prefix:css
+
+//to compress sass
+npm run compress:sass
+
+//to compile, concantenate, prefix and compress sass
+npm run build:css
+
+---------------------------------------
+
+//install sass
+npm install sass --save-dev
+
+//tool to concantenate css
+npm install concat --save-dev
+
+//tool to autoprefix css
+npm install autoprefixer --save-dev
+
+//part to autoprefix
+npm install postcss-cli --save-dev
+
+//tool to run all scripts
+npm install npm-run-all --save-dev
